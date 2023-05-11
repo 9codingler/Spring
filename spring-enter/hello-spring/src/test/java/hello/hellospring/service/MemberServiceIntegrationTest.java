@@ -22,7 +22,7 @@ class MemberServiceIntegrationTest {
     @Autowired MemberRepository memberRepository;
 
     @Test
-    @Commit
+//    @Commit
     void join() {
         // given
         Member member = new Member();
